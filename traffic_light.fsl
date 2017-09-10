@@ -1,7 +1,7 @@
 machine_name    : "ট্রাফিক বাতি";
 machine_author  : "তানভীর ইসলাম / Tanvir Islam / @tanvirrb";
 machine_comment : ["৪-স্টেট ট্রাফিক বাতি"
-                   Translation of the 4-state Traffic Light machine to Bengali"];
+                   "Translation of the 4-state Traffic Light machine to Bengali"];
 machine_license : MIT;
 machine_version : 1.0.0;
 fsl_version     : 1.0.0;
