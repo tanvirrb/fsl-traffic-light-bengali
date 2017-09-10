@@ -1,0 +1,16 @@
+machine_name    : "ট্রাফিক বাতি";
+machine_author  : "তানভীর ইসলাম / Tanvir Islam / @tanvirrb";
+machine_comment : "৪-স্টেট ট্রাফিক বাতি";
+machine_license : MIT;
+machine_version : 1.0.0;
+fsl_version     : 1.0.0;
+
+
+
+
+
+বন্ধ 'সক্রিয়' -> লাল;
+
+লাল 'অগ্রসর হও' => সবুজ 'অগ্রসর হও' => হলুদ 'অগ্রসর হও' => লাল;
+
+[সবুজ হলুদ লাল] 'নিষ্ক্রিয়' ~> বন্ধ;
